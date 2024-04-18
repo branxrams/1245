@@ -63,7 +63,7 @@ function redireccionarSiValor() {
 
     if (campoValor.trim() !== "") {
         localStorage.setItem("nombreUsuario", campoValor);
-        window.location.href = "/vista/categorias.html";
+        window.location.href = "./vista/categorias.html";
     } else {
         alert("El campo esta vació. Por favor ingrese un nombre.");
     }
